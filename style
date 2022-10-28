@@ -1,27 +1,41 @@
-#pagina{
-    margin:0 auto;
+*{
+    margin: 0;
+    padding: 0;
 }
-#cabecalho,#esquerda,#centro,#direita,#rodape{
-    background-color:aqua;
-    margin:10px;
+
+#cabecalho {
+    height: 100px;
+    background-color: aqua (212,212,192);
+    margin: 0 auto;
 }
-#cabecalho{
-    height:150px
-}
-#esquerda{
-    width:20%;
-    height:500px
-    float:left;
+
+#menu {
+    width: 20%;
+    height: 600px;
+    background-color: blueviolet(185,180,174);
+    float: left;
+    margin-top: 10px;
 
 }
-#centro{
-    width:55%;
-    height500px;
-    float:left;
+
+#principal {
+    width: 80%;
+    height: 600px;
+    background-color: bisque;
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
-#direita{
-    width;20%;
-    height:500px;
-    float:right;
+
+#rodape {
+    height: 50px;
+    background-color: brown(212,212,192);
+    clear: both;
 }
-#rodape
+
+p {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: black;
+}
